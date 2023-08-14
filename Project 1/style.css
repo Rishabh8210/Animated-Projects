@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'montserrat', Arial, Helvetica, sans-serif;
     color: #fff;
-    /* cursor:none; */
 }
 *::selection{
     color: #b3e824;
@@ -12,7 +11,6 @@
 }
 html, body{
     height: 100%;
-    /* perspective: 800px; */
     width: 100%;
 }
 #cursor{
@@ -25,12 +23,7 @@ html, body{
     transition: all linear 0.12s;
     pointer-events: none;
 }
-/* #cursor:hover{
-    height: 50px;
-    width: 50px;
-    border: 2px white;
-    background-color: transparent;
-} */
+
 #cursor-blur{
     height: 500px;
     width: 500px;
