@@ -7,10 +7,6 @@ document.addEventListener("mousemove", function(dets){
     crsr.style.top = dets.y-11+"px";
     crsrBlr.style.left = dets.x-250 +"px";
     crsrBlr.style.top = dets.y-250+"px";
-    // crsr.style.left = dets.x+"px";
-    // crsr.style.top = dets.y+"px";
-    // crsrBlr.style.left = dets.x-250 +"px";
-    // crsrBlr.style.top = dets.y-250+"px";
 })
 
 gsap.to("#nav",{
@@ -122,17 +118,3 @@ gsap.from("#inverted-comma2 img",{
     }
 })
 
-
-// const card = document.querySelectorAll("#card1");
-// card.forEach(function(elem){
-//     elem.addEventListener("mouseenter",function(){
-//         crsr.style.border = "1px solid #fff";
-//         crsr.style.scale = 4
-//         crsr.style.backgroundColor = "transparent"
-//     })
-//     elem.addEventListener("mouseleave",function(){
-//         crsr.style.scale = 1
-//         crsr.style.border = "0px solid #95C11E";
-//         crsr.style.backgroundColor = "#95C11E"
-//     })
-// })
